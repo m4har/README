@@ -29,14 +29,14 @@ jobs:
           git config --local user.name "m4har"
           git add -A
           
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="Reparo"
+          arr[1]="Riddikulus"
+          arr[2]="Accio"
+          arr[3]="Alohomora"
+          arr[4]="Crucio"
+          arr[5]="Petrificus Totalus"
+          arr[6]="Wingardium Leviosa"
+          arr[7]="Sectumsempra"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
